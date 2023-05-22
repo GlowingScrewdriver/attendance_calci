@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Pesu Attendance Calci",
-	"version": "0.3",
+	"version": "1.0",
 
 	"description": "An attendance calculator that integrates with PESU Academy. Written by Vedanth Padmaraman",
 	"homepage_url": "https://github.com/GlowingScrewdriver/attendance_calci",
