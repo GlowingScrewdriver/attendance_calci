@@ -1,5 +1,6 @@
 ## Attendance Calci
-An attendance calculator that integrates with the PESU Academy website.
+An attendance calculator that integrates with the PESU Academy webpage.  
+There is no communication with the PESU server; information about attendance (specifically, the number of classes attended and conducted for each subject) is taken from the webpage once it loads on your screen
 
 Attendance calci adds an extra column to the Attendance page on PESU academy which you can use to calculate what you want.
 
