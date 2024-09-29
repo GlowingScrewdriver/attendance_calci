@@ -1,22 +1,22 @@
 {
-	"manifest_version": 3,
-	"name": "Pesu Attendance Calci",
-	"version": "1.0",
-	"author": "Vedanth Padmaraman",
+    "manifest_version": 3,
+    "name": "Pesu Attendance Calci",
+    "version": "1.2",
+    "author": "Vedanth Padmaraman",
 
-	"browser_specific_settings": {
-	  "gecko": {
-		 "id": "attendancecalci@vedanth"
-	  }
-	},
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "attendancecalci@vedanth"
+        }
+    },
 
 
-	"description": "An attendance calculator that integrates with PESU Academy. Written by Vedanth Padmaraman",
-	"homepage_url": "https://github.com/GlowingScrewdriver/attendance_calci",
+    "description": "An attendance calculator that integrates with PESU Academy. Written by Vedanth Padmaraman",
+    "homepage_url": "https://github.com/GlowingScrewdriver/attendance_calci",
 
-	"host_permissions": ["*://*.pesuacademy.com/*"],
-	"content_scripts": [{
-		"matches": ["*://*.pesuacademy.com/*"],
-		"js": ["js.js"]
-	}]
+    "host_permissions": ["*://*.pesuacademy.com/*"],
+    "content_scripts": [{
+        "matches": ["*://*.pesuacademy.com/*"],
+        "js": ["attendance-calci.js"]
+    }]
 }

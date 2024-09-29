@@ -1,1 +1,0 @@
-../firefox/js.js
