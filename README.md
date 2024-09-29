@@ -1,4 +1,5 @@
 ## Attendance Calci
+![image](https://github.com/user-attachments/assets/c5437292-bcf2-4aec-9d66-09ef0e5a2d1e)
 An attendance calculator that integrates with the PESU Academy webpage.  
 There is no communication with the PESU server; information about attendance (specifically, the number of classes attended and conducted for each subject) is taken from the webpage once it loads on your screen
 
@@ -42,3 +43,12 @@ from users definitely helps.
 If you find a bug, feel free to open an issue on the [issues tab of the project](https://github.com/GlowingScrewdriver/attendance_calci/issues).
 
 If you find a fix for a bug, go ahead and open a pull request!
+
+## If you're not from PESU
+Although I set this up to work on PESU Academy, getting it to work on other college websites should be trivial. If you can do so
+for your college, do reach out! I would love to include your work in this project.
+
+Have a look at [`attendance-calci.js`](attendance-calci.js) if you're interested in trying. A few pointers to get you started:
+* The constructor for class `Attendance` is what extracts info from the webpage.<br>
+  One instance of this class is constructed for each subject in an attendance table.
+* Function `setup_buttons` sets up the attendance calculator buttons on the webpage
